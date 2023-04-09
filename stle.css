@@ -1,0 +1,81 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container h1 {
+    text-transform: uppercase;
+    font-size: 2.3em;
+    font-weight: 700;
+    margin: 30px;
+    color: #fff;
+
+}
+
+.container span {
+    font-size: 3.3rem;
+    font-weight: 700;
+    margin: 30px;
+    color: #fff;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    gap: 10px;
+}
+
+#decrease {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: red;
+}
+
+#increase {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: green;
+}
+
+#reset {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: blue;
+}
